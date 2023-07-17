@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/calc.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container text-center bg-dark mt-5" style="border-radius: 25px;height:420px;width: 280px;">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="text-white mt-3">CANON</h3>
+                <input type="text" name="" id="summary">
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3"><button onclick="allClear()" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">C</span></button></div>
+            <div class="col-3"><button onclick="displayData('%')" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">%</span></button></div>
+            <div class="col-3"><button onclick="displayData('+')" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">+</span></button></div>
+            <div class="col-3"><button onclick="displayData('-')" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">-</span></button></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3"><button onclick="displayData(1)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">1</span></button></div>
+            <div class="col-3"><button onclick="displayData(2)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">2</span></button></div>
+            <div class="col-3"><button onclick="displayData(3)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">3</span></button></div>
+            <div class="col-3"><button onclick="displayData('*')" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">*</span></button></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3"><button onclick="displayData(4)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">4</span></button></div>
+            <div class="col-3"><button onclick="displayData(5)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">5</span></button></div>
+            <div class="col-3"><button onclick="displayData(6)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">6</span></button></div>
+            <div class="col-3"><button onclick="displayData('.')" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">.</span></button></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3"><button onclick="displayData(7)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">7</span></button></div>
+            <div class="col-3"><button onclick="displayData(8)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">8</span></button></div>
+            <div class="col-3"><button onclick="displayData(9)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">9</span></button></div>
+            <div class="col-3"><button onclick="displayData('/')" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">/</span></button></div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-3"><button onclick="displayData(0)" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">0</span></button></div>
+            <div class="col-3"><button onclick="displayData('00')" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">00</span></button></div>
+            <div class="col-3"><button onclick="evaluateEx()" id="button1" type="submit" class="btn btn-sm w-100" style="background-color: lightseagreen;"><span class="text">=</span></button></div>
+            <div class="col-3"><button onclick="backSpace()" id="button1" type="submit" class="btn btn-sm w-100"><span class="text">&#9003</span></button></div>
+        </div>
+    </div>
+</body>
+<script src="/calc.js"></script>
+</html>

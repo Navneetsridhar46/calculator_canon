@@ -1,0 +1,15 @@
+#summary{
+    border-radius: 8px;
+    margin-top: 16px;
+    height: 47px;
+    width: 227px;}
+#button1{
+    background-color: gray;
+    border: none;
+    border-radius: 30px;
+    
+
+}
+.text{
+    font-size: 20px;
+}
